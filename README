@@ -64,7 +64,7 @@ Projeto simples de enquetes com **Node.js (Express + Sequelize + MySQL)** no bac
 
 Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/polls.git
+git clone
 cd polls
 
 # Instalar dependências
@@ -86,14 +86,15 @@ PORT=3000
 npm run dev
 # Servidor rodando em http://localhost:3000
 
-![Teste com Insomia](./frontend/assets/image/teste_insomnia.jpg)
 
 ## 💻 Rodando o Frontend
 Abra o arquivo `frontend/index.html` no navegador
 ou use a extensão Live Server no VSCode
+
+## 📸 Prints do Projeto
+
+### Criar enquete
 ![Criar enquete](./frontend/assets/image/image.png)
 
-<p align="center">
-  <img src="./frontend/assets/image/image.png" width="400">
-  <img src="./frontend/assets/image/teste_insomnia.jpg" width="400">
-</p>
+### Teste com Insomnia
+![Teste com Insomnia](./frontend/assets/image/teste_insomnia.jpg)
