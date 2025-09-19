@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crie suas enquetes!</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <h1>Crie suas enquetes!</h1>
+
+  <form id="create-poll-form">
+    <label>
+      Título:
+      <input type="text" id="title" required>
+    </label>
+    <br><br>
+
+    <label>
+      Descrição:
+      <textarea id="description"></textarea>
+    </label>
+    <br><br>
+
+    <label>
+      Data de início:
+      <input type="date" id="startDate" required>
+    </label>
+    <br><br>
+
+    <label>
+      Data de fim:
+      <input type="date" id="endDate" required>
+    </label>
+    <br><br>
+
+    <h3>Opções</h3>
+    <div id="options-container">
+      <input type="text" class="option-input" placeholder="Opção 1" required>
+      <input type="text" class="option-input" placeholder="Opção 2" required>
+      <input type="text" class="option-input" placeholder="Opção 3" required>
+    </div>
+
+    <button type="button" id="add-option">Adicionar opção</button>
+    <br><br>
+
+    <button type="submit">Criar Enquete</button>
+  </form>
+
+  <p>
+    <a href="index.html">← Voltar para todas as enquetes</a>
+  </p>
+
+
+  <p id="message"></p>
+
+  <script src="./js/createPoll.js" defer></script>
+</body>
+</html>
