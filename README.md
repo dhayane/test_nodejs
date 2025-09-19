@@ -30,8 +30,19 @@ Projeto simples de enquetes com **Node.js (Express + Sequelize + MySQL)** no bac
 
 Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/polls.git
-cd polls
+git clone https://github.com/dhayane/test_nodejs.git
+cd test_nodejs
+
+# Pacotes principais
+npm install express mysql2 sequelize cors dotenv
+
+# Pacote de desenvolvimento (opcional, mas recomendado)
+npm install --save-dev nodemon
+
+# Criar banco de dados
+CREATE DATABASE estagio_nodejs CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
 # 📊 Polls (Enquetes)
 
 Projeto simples de enquetes com **Node.js (Express + Sequelize + MySQL)** no backend e **HTML + JavaScript** no frontend.
@@ -60,21 +71,7 @@ Projeto simples de enquetes com **Node.js (Express + Sequelize + MySQL)** no bac
 
 ---
 
-## 📦 Instalação
-
-Clone o repositório:
-```bash
-git clone
-cd polls
-
-# Instalar dependências
-npm install
-npm install mysql2
-
-# Criar banco de dados
-CREATE DATABASE estagio_nodejs CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-Crie um .env na raiz do projeto com as seguintes informações:
+Preencha.env na raiz do projeto com as seguintes informações:
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
