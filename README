@@ -93,8 +93,7 @@ ou use a extensão Live Server no VSCode
 
 ## 📸 Prints do Projeto
 
-### Enquetes
-![Votação](frontend/assets/image/image.png)
-
-### Teste com Insomnia
-![Teste com Insomnia](frontend/assets/image/teste_insomnia.jpg)
+<p align="center">
+  <img src="./frontend/assets/image/image.png" width="400">
+  <img src="./frontend/assets/image/teste_insomnia.jpg" width="400">
+</p>
