@@ -91,11 +91,5 @@ npm run dev
 Abra o arquivo `frontend/index.html` no navegador
 ou use a extensão Live Server no VSCode
 
-## 📸 Prints do Projeto
-
-<p align="center">
-  <img src="./frontend/assets/image/image.png" width="400">
-  <img src="./frontend/assets/image/teste_insomnia.jpg" width="400">
-</p>
 
 
