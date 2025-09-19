@@ -94,8 +94,8 @@ ou use a extensão Live Server no VSCode
 ## 📸 Prints do Projeto
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dhayane/test_nodejs/main/frontend/assets/image/image.png" width="400">
-  <img src="https://raw.githubusercontent.com/dhayane/test_nodejs/main/frontend/assets/image/teste_insomnia.jpg" width="400">
+  <img src="./frontend/assets/image/image.png" width="400">
+  <img src="./frontend/assets/image/teste_insomnia.jpg" width="400">
 </p>
 
 
